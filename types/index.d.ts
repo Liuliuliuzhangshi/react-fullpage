@@ -94,6 +94,7 @@ declare module '@fullpage/react-fullpage' {
         touchSensitivity?: number
         v2compatible?: boolean
         verticalCentered?: boolean
+        credits?: boolean
 
         /* callback and events */
         afterLoad?(origin: Item, destination: Item, direction: string): void
